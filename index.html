@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Construindo Sonhos Web | Sua Presença Digital</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --azul-tech: #1e90ff;
+      --rosa-tech: #ff4fd8;
+      --bg-gradient: linear-gradient(135deg, #1e90ff, #ff4fd8);
+      --cinza: #f5f7fa;
+      --texto: #1f2937;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: var(--cinza);
+      color: var(--texto);
+    }
+
+    header {
+      background: var(--bg-gradient);
+      color: white;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      background: var(--bg-gradient);
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 40px;
+    }
+
+    .hero button {
+      background: white;
+      color: var(--azul-tech);
+      border: none;
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 60px 40px;
+      background: white;
+      text-align: center;
+    }
+
+    .stat h3 {
+      font-size: 2rem;
+      color: var(--azul-tech);
+    }
+
+    .section {
+      padding: 80px 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 50px;
+      font-size: 2.2rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: var(--rosa-tech);
+    }
+
+    .cta {
+      background: var(--bg-gradient);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .cta h2 {
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+    }
+
+    .cta button {
+      background: white;
+      color: var(--rosa-tech);
+      border: none;
+      padding: 15px 35px;
+      border-radius: 30px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    footer {
+      background: #0f172a;
+      color: #cbd5f5;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ConstruindoSonhosWeb</h1>
+  <nav>
+    <a href="#">Criar Site</a>
+    <a href="#">Planos</a>
+    <a href="#">Áreas</a>
+    <a href="#">Login</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Sua Presença Digital Começa Aqui</h2>
+  <p>Democratizamos a criação de sites profissionais. Templates inteligentes, acessibilidade total e tecnologia de ponta para qualquer profissão.</p>
+  <button>Criar Meu Site Grátis</button>
+</section>
+
+<section class="stats">
+  <div class="stat"><h3>8+</h3><p>Áreas Profissionais</p></div>
+  <div class="stat"><h3>100+</h3><p>Profissões Atendidas</p></div>
+  <div class="stat"><h3>99%</h3><p>Disponibilidade</p></div>
+  <div class="stat"><h3>24/7</h3><p>Suporte</p></div>
+</section>
+
+<section class="section">
+  <h2>Por Que Escolher o Construindo Sonhos Web?</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Criação Rápida</h3>
+      <p>Crie seu site profissional em minutos com templates prontos e editor intuitivo.</p>
+    </div>
+    <div class="card">
+      <h3>Seguro e Confiável</h3>
+      <p>HTTPS automático, backups diários e proteção conforme LGPD.</p>
+    </div>
+    <div class="card">
+      <h3>Acessibilidade Total</h3>
+      <p>Feito para todos, incluindo idosos e pessoas com deficiência.</p>
+    </div>
+    <div class="card">
+      <h3>Recursos Completos</h3>
+      <p>Domínio próprio, estatísticas, formulários, agendamentos e integração com WhatsApp.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <h2>Pronto Para Levar Seu Sonho ao Digital?</h2>
+  <p>Comece gratuitamente hoje mesmo. Sem cartão de crédito.</p><br>
+  <button>Criar Meu Primeiro Site</button>
+</section>
+
+<footer>
+  © 2025 ConstruindoSonhosWeb. Democratizando a presença digital.
+</footer>
+
+</body>
+</html>
